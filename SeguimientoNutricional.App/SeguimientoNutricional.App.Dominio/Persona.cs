@@ -1,5 +1,6 @@
 using system;
 
+/// <summary> Clase de la que se Heredan Paciente , Coach , Nutricionista </summary>
 namespace SeguimientoNutricional.App.Dominio
 {
     

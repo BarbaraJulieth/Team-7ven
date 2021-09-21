@@ -9,6 +9,7 @@ namespace SeguimientoNutricional.App.Dominio
         public char IdCoach { get; set; }
         public char IdPaciente { get; set; }
         public string SugerenciasCuid { get; set; }
+        
         /// Relacion entre SeguimientoNutricional e HistoricoBasico
         public HistoricoBasico HistoricoB { get; set; }
 

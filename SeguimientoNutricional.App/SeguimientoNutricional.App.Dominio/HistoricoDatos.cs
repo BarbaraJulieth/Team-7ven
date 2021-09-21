@@ -1,7 +1,7 @@
 using system;
 namespace SeguimientoNutricional.App.Dominio
 {
-    /
+    
     public class HistoricoDatos
     {
         public char IdHistoricoDatos { get; set; }
