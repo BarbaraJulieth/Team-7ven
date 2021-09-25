@@ -2,7 +2,7 @@ using system;
 namespace SeguimientoNutricional.App.Dominio
 {    
 
-    public class SeguimientoNutricional
+    public class SeguimientoNutri
     {
         public char IdSeguimiento { get; set; }
         public char IdNutricionista { get; set; }
@@ -11,8 +11,10 @@ namespace SeguimientoNutricional.App.Dominio
         public string SugerenciasCuid { get; set; }
         
         /// Relacion entre SeguimientoNutricional e HistoricoBasico
-        public HistoricoBasico HistoricoB { get; set; }
-
+        public HistoricoBasico HistoricoBasicoPaciente { get; set; }
+        
+        /// Relacion entre SeguimientoNutricional y Paciente
+        public Paciente Paciente { get; set; }
         
     }
 }
