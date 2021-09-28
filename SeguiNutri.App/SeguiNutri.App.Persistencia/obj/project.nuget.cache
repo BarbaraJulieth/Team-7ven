@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Ve5Jn0F2ORru9l0/i4a7ry58mhrz0BSG7TIQ1R92PBirnfWtF1p/uDZYTVDiaf8Ut4W8giiZPaJ0MQ7oXKS1Q==",
+  "success": true,
+  "projectFilePath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dari\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dari\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
