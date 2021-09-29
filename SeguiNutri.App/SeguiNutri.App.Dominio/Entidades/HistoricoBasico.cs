@@ -1,11 +1,11 @@
-using system;
-namespace SeguimientoNutricional.App.Dominio
+using System;
+namespace SeguiNutri.App.Dominio
 {    
 
     public class HistoricoBasico
     {
         
-        public char IdPaciente { get; set; }
+        public string IdPaciente { get; set; }
         
         
         

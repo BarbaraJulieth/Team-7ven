@@ -2068,6 +2068,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "SeguiNutri.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SeguiNutri.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeguiNutri.App.Dominio.dll": {}
+        }
       }
     }
   },
@@ -7236,13 +7246,19 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SeguiNutri.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../SeguiNutri.App.Dominio/SeguiNutri.App.Dominio.csproj",
+      "msbuildProject": "../SeguiNutri.App.Dominio/SeguiNutri.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
+      "SeguiNutri.App.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7268,7 +7284,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
+              "projectPath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,13 +1,13 @@
-using system;
-namespace SeguimientoNutricional.App.Dominio
+using System;
+namespace SeguiNutri.App.Dominio
 {    
 
-    public class SeguimientoNutri
+    public class SeguimientoNutris
     {
-        public char IdSeguimiento { get; set; }
-        public char IdNutricionista { get; set; }
-        public char IdCoach { get; set; }
-        public char IdPaciente { get; set; }
+        public string IdSeguimiento { get; set; }
+        public string IdNutricionista { get; set; }
+        public string IdCoach { get; set; }
+        public string IdPaciente { get; set; }
         public string SugerenciasCuid { get; set; }
         
         /// Relacion entre SeguimientoNutricional e HistoricoBasico

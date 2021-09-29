@@ -2,12 +2,12 @@ using System;
 
 /// <summary> Paciente </summary>
 
-namespace SeguimientoNutricional.App.Dominio
+namespace SeguiNutri.App.Dominio
 {
     public class Paciente : Persona
     {
-        public int IdPaciente { get; set; }
-        public varchar Contraseña { get; set;}
+        public string IdPaciente { get; set; }
+        public string Contraseña { get; set;}
 
         
         /// Relacion Entre Paciente y Coach
@@ -18,7 +18,7 @@ namespace SeguimientoNutricional.App.Dominio
 
                
         /// Relacion Entre Paciente y SeguimientoNutricional
-        public SeguimientoNutricional SeguimientoNutricionalPaciente { get; set;}
+        public SeguimientoNutris SeguimientoNutricionalPaciente { get; set;}
 
         /// Relacion Entre Paciente y Registro de datos
         public RegistroDatos RegistroDatosPaciente { get; set;}  

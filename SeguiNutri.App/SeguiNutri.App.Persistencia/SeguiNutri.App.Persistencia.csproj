@@ -13,4 +13,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SeguiNutri.App.Dominio\SeguiNutri.App.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

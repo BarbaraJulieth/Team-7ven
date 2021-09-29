@@ -2,11 +2,11 @@ using System;
 
 /// <summary> Nutricionista </summary>
 
-namespace SeguimientoNutricional.App.Dominio
+namespace SeguiNutri.App.Dominio
 {
     public class Nutricionista : Persona
     {
-        public int IdNutricionista { get; set; }
+        public string IdNutricionista { get; set; }
 
     }
 
