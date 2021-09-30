@@ -7,3 +7,12 @@ G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\n
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.deps.json
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.csprojAssemblyReference.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfoInputs.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfo.cs
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
