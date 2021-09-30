@@ -7,7 +7,7 @@ namespace SeguiNutri.App.Dominio
     public class RegistroDatos
     {
         public string Id_Paciente { get; set; }
-        public string Id_Registro { get; set; }
+        public string Id { get; set; }
         public string Fecha_Registro { get; set; }
         public double  CaloriasConsumi { get; set; }
         public double  ProteinaConsumi { get; set; }
