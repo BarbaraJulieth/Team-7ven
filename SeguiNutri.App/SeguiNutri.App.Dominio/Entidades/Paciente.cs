@@ -17,8 +17,7 @@ namespace SeguiNutri.App.Dominio
         public Nutricionista NutricionistaAsignadoPaciente { get; set;}
 
                
-        /// Relacion Entre Paciente y SeguimientoNutricional
-        public SeguimientoNutris SeguimientoNutricionalPaciente { get; set;}
+        
 
         /// Relacion Entre Paciente y Registro de datos
         public RegistroDatos RegistroDatosPaciente { get; set;}  

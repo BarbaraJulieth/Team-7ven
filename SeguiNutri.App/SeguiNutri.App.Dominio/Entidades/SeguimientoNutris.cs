@@ -13,8 +13,7 @@ namespace SeguiNutri.App.Dominio
         /// Relacion entre SeguimientoNutricional e HistoricoBasico
         public HistoricoBasico HistoricoBasicoPaciente { get; set; }
         
-        /// Relacion entre SeguimientoNutricional y Paciente
-        public Paciente Paciente { get; set; }
+        
         
     }
 }

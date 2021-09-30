@@ -13,5 +13,14 @@ namespace SeguiNutri.App.Persistencia
         public DbSet<Persona> Personas {get ; set; }
         public DbSet<RegistroDatos> RegistrosDatos {get ; set; }
         public DbSet<SeguimientoNutris> SeguimientosNutri {get ; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if(!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = SeguiNutriData");
+            }
+        }
     }
 }
