@@ -8,20 +8,19 @@ namespace SeguiNutri.App.Persistencia
     public class RepositorioPaciente : IRepositorioPaciente
     {
         private readonly AppContext _appContext;
-        public RepositorioPaciente(AppContext appContext)
+        public RepositorioPaciente(AppContext _appContext)
         {
-            _appContext=appContext;
+            this._appContext=_appContext;
         }
 
-        ///Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
-        public Paciente AddPaciente(Paciente paciente)
+        Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
         {
            var pacienteAdicionado =  _appContext.Pacientes.Add(paciente);
            _appContext.SaveChanges();
            return pacienteAdicionado.Entity;
         }
 
-        public void DeletePaciente(int idPaciente)
+        void IRepositorioPaciente.DeletePaciente(int idPaciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
             if (pacienteEncontrado == null)
@@ -30,23 +29,23 @@ namespace SeguiNutri.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<Paciente> GetAllPacientes()
+        IEnumerable<Paciente> IRepositorioPaciente.GetAllPacientes()
         {
         
             return _appContext.Pacientes;
 
         }
 
-        public Paciente GetPaciente(int idPaciente)
+       
+        Paciente IRepositorioPaciente.GetPaciente(int IdPaciente)
         {
-            return _appContext.Pacientes.FirstOrDefault(p => p.Id==idPaciente);
-        
-
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
+            return pacienteEncontrado;
         }
 
-        public Paciente UpdatePaciente(Paciente paciente)
+        Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente)
         {
-           var pacienteEncontrado=_appContext.Pacientes.FirstOrDefault(p => p.Id==paciente.Id);
+           var pacienteEncontrado=_appContext.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);
             if (pacienteEncontrado!=null)
             {
                 pacienteEncontrado.IdPaciente=paciente.IdPaciente;
