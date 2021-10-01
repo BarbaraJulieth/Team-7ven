@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using SeguiNutri.App.Dominio;
+using System;
 
 namespace SeguiNutri.App.Persistencia
 {
@@ -20,7 +21,7 @@ namespace SeguiNutri.App.Persistencia
            return pacienteAdicionado.Entity;
         }
 
-        void IRepositorioPaciente.DeletePaciente(int idPaciente)
+        void IRepositorioPaciente.DeletePaciente(string idPaciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
             if (pacienteEncontrado == null)
@@ -37,7 +38,7 @@ namespace SeguiNutri.App.Persistencia
         }
 
        
-        Paciente IRepositorioPaciente.GetPaciente(int IdPaciente)
+        Paciente IRepositorioPaciente.GetPaciente(string IdPaciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
             return pacienteEncontrado;

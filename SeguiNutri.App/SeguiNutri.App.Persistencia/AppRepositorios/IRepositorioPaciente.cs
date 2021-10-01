@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using SeguiNutri.App.Dominio;
+using System.Linq;
 
 namespace SeguiNutri.App.Persistencia
 {
@@ -8,7 +9,7 @@ namespace SeguiNutri.App.Persistencia
         IEnumerable<Paciente> GetAllPacientes();
         Paciente AddPaciente(Paciente paciente);
         Paciente UpdatePaciente(Paciente paciente);
-        void DeletePaciente(int idPaciente);
-        Paciente GetPaciente(int idPaciente);
+        void DeletePaciente(string idPaciente);
+        Paciente GetPaciente(string idPaciente);
     }
 }
