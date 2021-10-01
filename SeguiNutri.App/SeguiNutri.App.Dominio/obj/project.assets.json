@@ -180,11 +180,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Brayan Triviño\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+>>>>>>> d0c6533bf4cf42aabc102589af9c6a01cdbe8b83
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\SeguimientoNutricional\\Team-7ven\\seguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
       "projectName": "SeguiNutri.App.Dominio",
       "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\seguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
@@ -193,6 +198,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brayan Triviño\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
+      "projectName": "SeguiNutri.App.Dominio",
+      "projectPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> d0c6533bf4cf42aabc102589af9c6a01cdbe8b83
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -231,7 +246,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+>>>>>>> d0c6533bf4cf42aabc102589af9c6a01cdbe8b83
       }
     }
   }
