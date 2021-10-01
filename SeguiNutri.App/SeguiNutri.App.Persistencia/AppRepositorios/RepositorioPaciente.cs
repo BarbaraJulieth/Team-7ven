@@ -58,10 +58,13 @@ namespace SeguiNutri.App.Persistencia
                 pacienteEncontrado.Correo=paciente.Correo;
                 pacienteEncontrado.Telefono=paciente.Telefono;
               
-                pacienteEncontrado.Coach=paciente.Coach;
-                pacienteEncontrado.Nutricionista=paciente.Nutricionista;
-                pacienteEncontrado.SeguimientoNutris=paciente.SeguimientoNutris;
-                pacienteEncontrado.Historia=paciente.Historia;
+                pacienteEncontrado.CoachAsignadoPaciente=paciente.CoachAsignadoPaciente;
+                pacienteEncontrado.NutricionistaAsignadoPaciente=paciente.NutricionistaAsignadoPaciente;
+                pacienteEncontrado.RegistroDatosPaciente=paciente.RegistroDatosPaciente;
+                pacienteEncontrado.SeguimientoNutrisPaciente=paciente.SeguimientoNutrisPaciente;
+                pacienteEncontrado.HistoricoBasicoPaciente=paciente.HistoricoBasicoPaciente;
+                pacienteEncontrado.HistoricoDatosPaciente=paciente.HistoricoDatosPaciente;
+                
 
                 _appContext.SaveChanges();
                 
