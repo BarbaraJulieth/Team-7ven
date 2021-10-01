@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using HospitalEnCasa.App.Dominio;
+using SeguiNutri.App.Dominio;
 
 namespace SeguiNutri.App.Persistencia
 {

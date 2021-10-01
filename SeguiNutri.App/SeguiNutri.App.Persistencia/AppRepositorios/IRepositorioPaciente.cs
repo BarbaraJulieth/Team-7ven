@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using HospitalEnCasa.App.Dominio;
+using SeguiNutri.App.Dominio;
 
 namespace SeguiNutri.App.Persistencia
 {
