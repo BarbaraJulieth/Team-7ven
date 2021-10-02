@@ -3,7 +3,7 @@ using System.Linq;
 using SeguiNutri.App.Dominio;
 using System;
 
-namespace SeguiNutri.App.Persistencia
+namespace SeguiNutri.App.Persistencia.AppRepositorios
 {
 
     public class RepositorioPaciente : IRepositorioPaciente

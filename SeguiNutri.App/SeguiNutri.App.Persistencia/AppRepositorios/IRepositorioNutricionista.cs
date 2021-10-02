@@ -6,7 +6,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioNutricionista
     {
-        IEnumerable<Nutricionista> GetAllPNutricionista();
+        IEnumerable<Nutricionista> GetAllNutricionista();
         Nutricionista AddNutricionista(Nutricionista nutricionista);
         Nutricionista UpdateNutricionista(Nutricionista nutricionista);
         void DeleteNutricionista(string IdNutricionista);
