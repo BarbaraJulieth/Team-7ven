@@ -23,7 +23,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         void IRepositorioRegistroDatos.DeleteRegistroDatos(string IdPaciente, string Id)
         {
-            var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p , y => p.Id == Id && y.IdPaciente == IdPaciente);
+            var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p  => p.Id == Id );
             if(RegistroDatosAgregado == null)
                 return;
             _appContext.RegistrosDatos.Remove(RegistroDatosAgregado);
@@ -37,17 +37,17 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         RegistroDatos IRepositorioRegistroDatos.GetRegistroDatos(string IdPaciente , string Id)
         {
-            var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p , y => p.Id == Id && y.IdPaciente == IdPaciente);
+            var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p  => p.Id == Id );
             return RegistroDatosAgregado;
         }
 
         RegistroDatos IRepositorioRegistroDatos.UpdateRegistroDatos(RegistroDatos registroDatos)
         {
-            var RegistroDatosEncontrado = _appContext.RegistrosDatos.FirstOrDefault(p => p.Id == registroDatos.Id);
+            var RegistroDatosEncontrado = _appContext.RegistrosDatos.FirstOrDefault(p  => p.Id == registroDatos.Id );
             if (RegistroDatosEncontrado != null)
             {
                 RegistroDatosEncontrado.Id = registroDatos.Id;
-                RegistroDatosEncontrado.IdPaciente = registroDatos.IdPaciente;
+                RegistroDatosEncontrado.Id_Paciente = registroDatos.Id_Paciente;
                 RegistroDatosEncontrado.Fecha_Registro = registroDatos.Fecha_Registro;
                 RegistroDatosEncontrado.CaloriasConsumi = registroDatos.CaloriasConsumi;
                 RegistroDatosEncontrado.ProteinaConsumi = registroDatos.ProteinaConsumi;
