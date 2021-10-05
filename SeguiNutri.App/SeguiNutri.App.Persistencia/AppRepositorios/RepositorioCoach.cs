@@ -52,7 +52,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             coachEncontrado.FechaNacimiento=coach.FechaNacimiento;
             coachEncontrado.Correo=coach.Correo;
             coachEncontrado.Telefono=coach.Telefono;
-            coachEncontrado.IdCoach=coach.IdCoach;
+            coachEncontrado.Id=coach.Id;
             _appContext.SaveChanges();
            
          }
