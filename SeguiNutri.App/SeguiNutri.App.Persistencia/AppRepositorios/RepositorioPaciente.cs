@@ -10,6 +10,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
     public class RepositorioPaciente : IRepositorioPaciente
     {
         private readonly AppContext _appContext;
+
         public RepositorioPaciente(AppContext _appContext)
         {
             this._appContext=_appContext;
@@ -72,5 +73,109 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             }
             return pacienteEncontrado;
         }
+        // metodo de asignacion de Nutricionista -- Paciente
+
+        Nutricionista IRepositorioPaciente.AsignarNutricionista(string IdPaciente, string IdNutricionista)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
+            if (pacienteEncontrado != null)       
+            {
+                var nutricionistaEncontrado = _appContext.Nutricionistas.FirstOrDefault(n => n.Id == IdNutricionista);
+                if(nutricionistaEncontrado != null)
+                {
+                    pacienteEncontrado.NutricionistaAsignadoPaciente= nutricionistaEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return nutricionistaEncontrado;
+            }
+            return null;
+
+        }
+
+        // metodo de asignacion de coach Paciente
+
+        Coach IRepositorioPaciente.AsignarCoach(string IdPaciente, string IdCoach)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
+            if (pacienteEncontrado != null)
+            {
+                var coachEncontrado = _appContext.Coachs.FirstOrDefault(c => c.Id == IdCoach);
+                if (coachEncontrado != null)
+                {
+                    pacienteEncontrado.CoachAsignadoPaciente=coachEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return coachEncontrado;
+            }
+            return null;
+
+        }
+        // metodo de asignacion de RegistroDatos a Paciente
+        RegistroDatos IRepositorioPaciente.AsignarRegistroDatos(string IdPaciente, string IdRegistroDatos)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
+            if (pacienteEncontrado != null)
+            {
+                var registroDatosEncontrado = _appContext.RegistrosDatos.FirstOrDefault(r => r.Id == IdRegistroDatos);
+                if(registroDatosEncontrado != null)
+                {
+                    pacienteEncontrado.RegistroDatosPaciente= registroDatosEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return registroDatosEncontrado;
+            }
+            return null;
+
+        }
+        // metodo de asignacion de Histocio Basico Paciente
+
+        HistoricoBasico IRepositorioPaciente.AsignarHistoricoBasico(string IdPaciente, string IdHistoricoBasico)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
+            if(pacienteEncontrado != null)
+            {
+                var historicoBasicoEncontrado = _appContext.HistoricoBasicos.FirstOrDefault(h => h.Id == IdHistoricoBasico);
+                if (historicoBasicoEncontrado != null)
+                {
+                    pacienteEncontrado.HistoricoBasicoPaciente = historicoBasicoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return historicoBasicoEncontrado;
+            }
+            return null;
+        }
+
+        SeguimientoNutris IRepositorioPaciente.AsignarSeguimiPaciente(string IdPaciente, string IdSeguimientoNutri)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
+            if (pacienteEncontrado != null)
+            {
+                var seguimientoNutriEncontrado = _appContext.SeguimientosNutri.FirstOrDefault(s => s.Id == IdSeguimientoNutri);
+                if(seguimientoNutriEncontrado != null)
+                {
+                    pacienteEncontrado.SeguimientoNutrisPaciente = seguimientoNutriEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return seguimientoNutriEncontrado;
+            }
+            return null;
+        }
+
+        HistoricoDatos IRepositorioPaciente.AsignarHistoricoDatos(string IdPaciente, string IdHistoricoDatos)
+        {
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
+            if(pacienteEncontrado != null)
+            {
+                var historicoDatosEncontrado = _appContext.HistoricosDatos.FirstOrDefault(h => h.Id == IdHistoricoDatos);
+                if(historicoDatosEncontrado != null)
+                {
+                    pacienteEncontrado.HistoricoDatosPaciente = historicoDatosEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return historicoDatosEncontrado;
+            }
+            return null;
+        }
+
     }
 }
