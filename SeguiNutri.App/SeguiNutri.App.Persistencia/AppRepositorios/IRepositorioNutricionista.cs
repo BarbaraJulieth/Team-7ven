@@ -9,7 +9,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         IEnumerable<Nutricionista> GetAllNutricionista();
         Nutricionista AddNutricionista(Nutricionista nutricionista);
         Nutricionista UpdateNutricionista(Nutricionista nutricionista);
-        void DeleteNutricionista(string IdNutricionista);
-        Nutricionista GetNutricionista(string IdNutricionista);
+        void DeleteNutricionista(int IdNutricionista);
+        Nutricionista GetNutricionista(int IdNutricionista);
     }
 }

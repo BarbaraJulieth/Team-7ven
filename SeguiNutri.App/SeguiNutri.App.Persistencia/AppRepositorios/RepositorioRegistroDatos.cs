@@ -21,7 +21,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             return RegistroDatosAgregado.Entity;
         }
 
-        void IRepositorioRegistroDatos.DeleteRegistroDatos(string IdPaciente, string Id)
+        void IRepositorioRegistroDatos.DeleteRegistroDatos(int IdPaciente, int Id)
         {
             var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p  => p.Id == Id );
             if(RegistroDatosAgregado == null)
@@ -35,7 +35,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             return _appContext.RegistrosDatos;
         }
 
-        RegistroDatos IRepositorioRegistroDatos.GetRegistroDatos(string IdPaciente , string Id)
+        RegistroDatos IRepositorioRegistroDatos.GetRegistroDatos(int IdPaciente , int Id)
         {
             var RegistroDatosAgregado = _appContext.RegistrosDatos.FirstOrDefault(p  => p.Id == Id );
             return RegistroDatosAgregado;

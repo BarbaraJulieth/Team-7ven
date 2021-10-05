@@ -13,7 +13,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         public RepositorioPaciente(AppContext _appContext)
         {
-            this._appContext=_appContext;
+            _appContext=appContext;
         }
 
         Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
@@ -23,7 +23,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
            return pacienteAdicionado.Entity;
         }
 
-        void IRepositorioPaciente.DeletePaciente(string idPaciente)
+        void IRepositorioPaciente.DeletePaciente(int idPaciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
             if (pacienteEncontrado == null)
@@ -40,7 +40,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         }
 
        
-        Paciente IRepositorioPaciente.GetPaciente(string IdPaciente)
+        Paciente IRepositorioPaciente.GetPaciente(int IdPaciente)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
             return pacienteEncontrado;
@@ -75,7 +75,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         }
         // metodo de asignacion de Nutricionista -- Paciente
 
-        Nutricionista IRepositorioPaciente.AsignarNutricionista(string IdPaciente, string IdNutricionista)
+        Nutricionista IRepositorioPaciente.AsignarNutricionista(int IdPaciente, int IdNutricionista)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
             if (pacienteEncontrado != null)       
@@ -94,7 +94,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         // metodo de asignacion de coach Paciente
 
-        Coach IRepositorioPaciente.AsignarCoach(string IdPaciente, string IdCoach)
+        Coach IRepositorioPaciente.AsignarCoach(int IdPaciente, int IdCoach)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
             if (pacienteEncontrado != null)
@@ -111,7 +111,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         }
         // metodo de asignacion de RegistroDatos a Paciente
-        RegistroDatos IRepositorioPaciente.AsignarRegistroDatos(string IdPaciente, string IdRegistroDatos)
+        RegistroDatos IRepositorioPaciente.AsignarRegistroDatos(int IdPaciente, int IdRegistroDatos)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
             if (pacienteEncontrado != null)
@@ -129,7 +129,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         }
         // metodo de asignacion de Histocio Basico Paciente
 
-        HistoricoBasico IRepositorioPaciente.AsignarHistoricoBasico(string IdPaciente, string IdHistoricoBasico)
+        HistoricoBasico IRepositorioPaciente.AsignarHistoricoBasico(int IdPaciente, int IdHistoricoBasico)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id == IdPaciente);
             if(pacienteEncontrado != null)
@@ -145,7 +145,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             return null;
         }
 
-        SeguimientoNutris IRepositorioPaciente.AsignarSeguimiPaciente(string IdPaciente, string IdSeguimientoNutri)
+        SeguimientoNutris IRepositorioPaciente.AsignarSeguimiPaciente(int IdPaciente, int IdSeguimientoNutri)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
             if (pacienteEncontrado != null)
@@ -161,7 +161,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             return null;
         }
 
-        HistoricoDatos IRepositorioPaciente.AsignarHistoricoDatos(string IdPaciente, string IdHistoricoDatos)
+        HistoricoDatos IRepositorioPaciente.AsignarHistoricoDatos(int IdPaciente, int IdHistoricoDatos)
         {
             var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(p => p.Id ==IdPaciente);
             if(pacienteEncontrado != null)

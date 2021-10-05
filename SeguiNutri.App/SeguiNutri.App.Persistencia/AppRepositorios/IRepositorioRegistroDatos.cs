@@ -10,7 +10,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         IEnumerable<RegistroDatos> GetAllRegistrosDatos();
         RegistroDatos AddRegistroDatos(RegistroDatos registroDatos);
         RegistroDatos UpdateRegistroDatos(RegistroDatos registroDatos);
-        void DeleteRegistroDatos(string IdPaciente ,string Id);
-        RegistroDatos GetRegistroDatos(string IdPaciente ,string Id);
+        void DeleteRegistroDatos(int IdPaciente ,int Id);
+        RegistroDatos GetRegistroDatos(int IdPaciente ,int Id);
     }
 }

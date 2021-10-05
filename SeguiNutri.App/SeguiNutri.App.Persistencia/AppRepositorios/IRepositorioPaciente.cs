@@ -9,20 +9,20 @@ namespace SeguiNutri.App.Persistencia
         IEnumerable<Paciente> GetAllPacientes();
         Paciente AddPaciente(Paciente paciente);
         Paciente UpdatePaciente(Paciente paciente);
-        void DeletePaciente(string idPaciente);
-        Paciente GetPaciente(string idPaciente);
+        void DeletePaciente(int idPaciente);
+        Paciente GetPaciente(int idPaciente);
 
         // metodo de asignacion de nutricionista
-        Nutricionista AsignarNutricionista (string IdPaciente , string IdNutricionista);
+        Nutricionista AsignarNutricionista (int IdPaciente , int IdNutricionista);
         // metodo de asignacion de Coach
-        Coach AsignarCoach (string IdPaciente , string IdCoach);
+        Coach AsignarCoach (int IdPaciente , int IdCoach);
         // Metodo de asignacion de registroDatos con paciente
-        RegistroDatos AsignarRegistroDatos (string IdPaciente , string IdRegistroDatos);        
+        RegistroDatos AsignarRegistroDatos (int IdPaciente , int IdRegistroDatos);        
         // metodo de asignacion de SeguimientoNutris con el paciente
-        SeguimientoNutris AsignarSeguimiPaciente (string IdPaciente, string IdSeguimientoNutri);
+        SeguimientoNutris AsignarSeguimiPaciente (int IdPaciente, int IdSeguimientoNutri);
         // Metodo de asignacion del Historico Basico Con El Paciente
-        HistoricoBasico AsignarHistoricoBasico      (string IdPaciente , string IdHistoricoBasico);
+        HistoricoBasico AsignarHistoricoBasico      (int IdPaciente , int IdHistoricoBasico);
         // metodo de asignacion de Historico Datos con el Paciente
-        HistoricoDatos AsignarHistoricoDatos (string IdPaciente , string IdHistoricoDatos);
+        HistoricoDatos AsignarHistoricoDatos (int IdPaciente , int IdHistoricoDatos);
     }
 }

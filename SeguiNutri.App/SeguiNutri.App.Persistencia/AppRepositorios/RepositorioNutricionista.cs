@@ -20,7 +20,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             _appContext.SaveChanges();
             return nutricionistaEncontrado.Entity;
         }
-        void IRepositorioNutricionista.DeleteNutricionista(string IdNutricionista)
+        void IRepositorioNutricionista.DeleteNutricionista(int IdNutricionista)
         {
             var nutricionistaEncontrado = _appContext.Nutricionistas.FirstOrDefault(p => p.Id == IdNutricionista);
             if(nutricionistaEncontrado == null)
@@ -34,7 +34,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
             return _appContext.Nutricionistas;
         }
 
-        Nutricionista IRepositorioNutricionista.GetNutricionista(string IdNutricionista)
+        Nutricionista IRepositorioNutricionista.GetNutricionista(int IdNutricionista)
         {
             var nutricionistaEncontrado = _appContext.Nutricionistas.FirstOrDefault(p => p.Id ==IdNutricionista);
             return nutricionistaEncontrado;

@@ -8,7 +8,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
         IEnumerable<Coach> GetAllCoachs();
         Coach AddCoach(Coach coach);
         Coach UpdateCoach(Coach coach);
-        void DeleteCoach(string idCoach);
-        Coach GetCoach(string idCoach);
+        void DeleteCoach(int idCoach);
+        Coach GetCoach(int idCoach);
      }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using SeguiNutri.App.Dominio;
+using SeguiNutri.App.Persistencia;
 
 namespace SeguiNutri.App.Consola
 {
@@ -8,22 +10,23 @@ namespace SeguiNutri.App.Consola
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            AddPaciente();
         }
 
         private static void AddPaciente()
         {
-            Contraseña = "1234",
-            Cedula = "12354",
-            Nombre="Nico",
-            Apellido="Perez",
-            
-            NumeroTelefono="3118237",
-            Genero = Genero.masculino,
-            Direccion="cra 117a",
-            Longitud =8.50,
-            Latitud = 4.50,
-            Ciudad = "Bogota",
-            FechaNacimiento = "12/01/1998"
+            var  paciente = new Paciente{
+                Id = 01,
+                Cedula = "12354",
+                Nombre="Nico",
+                Apellido="Perez",
+                FechaNacimiento = new DateTime(01/01/2020),
+                Correo = "asdasd@asdasd.com",
+                Telefono = "132154",
+                IdPaciente = 01,
+                Contraseña = "1234"
+            };
+            _repoPaciente.AddPaciente(paciente);
         }
     }
 }
