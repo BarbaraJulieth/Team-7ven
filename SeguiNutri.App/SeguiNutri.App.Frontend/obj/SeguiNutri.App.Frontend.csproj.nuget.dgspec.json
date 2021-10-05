@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {}
+    "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {}
   },
   "projects": {
-    "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {
+    "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+        "projectUniqueName": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
         "projectName": "SeguiNutri.App.Frontend",
-        "projectPath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+        "projectPath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Dari\\.nuget\\packages\\",
-        "outputPath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App.Frontend\\obj\\",
+        "outputPath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "G:\\Visual componentes\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
