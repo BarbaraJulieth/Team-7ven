@@ -16,11 +16,11 @@ namespace SeguiNutri.App.Consola
         private static void AddPaciente()
         {
             var  paciente = new Paciente{
-                Id = 01,
+                
                 Cedula = "12354",
                 Nombre="Nico",
                 Apellido="Perez",
-                FechaNacimiento = new DateTime(01/01/2020),
+                FechaNacimiento = new DateTime(2020,01,01),
                 Correo = "asdasd@asdasd.com",
                 Telefono = "132154",
                 IdPaciente = 01,
