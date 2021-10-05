@@ -36,3 +36,4 @@ G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.genruntimeconfig.cache
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.csproj.CopyComplete
+G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Prueba\Prueba.cshtml.g.cs
