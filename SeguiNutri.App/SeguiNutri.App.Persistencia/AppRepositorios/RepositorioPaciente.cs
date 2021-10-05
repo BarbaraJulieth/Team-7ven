@@ -13,7 +13,8 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 
         public RepositorioPaciente(AppContext _appContext)
         {
-            _appContext=appContext;
+            this._appContext =_appContext;
+
         }
 
         Paciente IRepositorioPaciente.AddPaciente(Paciente paciente)
