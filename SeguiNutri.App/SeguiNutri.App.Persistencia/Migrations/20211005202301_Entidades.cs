@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SeguiNutri.App.Persistencia.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class Entidades : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

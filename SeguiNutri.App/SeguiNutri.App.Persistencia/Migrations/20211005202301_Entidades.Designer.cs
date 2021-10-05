@@ -10,8 +10,8 @@ using SeguiNutri.App.Persistencia;
 namespace SeguiNutri.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211005183056_Inicial")]
-    partial class Inicial
+    [Migration("20211005202301_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
