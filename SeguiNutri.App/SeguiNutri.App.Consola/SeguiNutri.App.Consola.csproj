@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SeguiNutri.App.Persistencia\SeguiNutri.App.Persistencia.csproj" />
+    <ProjectReference Include="..\SeguiNutri.App.Dominio\SeguiNutri.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

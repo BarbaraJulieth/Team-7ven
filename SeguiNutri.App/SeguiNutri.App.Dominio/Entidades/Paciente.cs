@@ -6,7 +6,7 @@ namespace SeguiNutri.App.Dominio
 {
     public class Paciente : Persona
     {
-        public string IdPaciente { get; set; }
+        public int IdPaciente { get; set; }
         public string Contraseña { get; set;}  
               
         /// Relacion Entre Paciente y Coach

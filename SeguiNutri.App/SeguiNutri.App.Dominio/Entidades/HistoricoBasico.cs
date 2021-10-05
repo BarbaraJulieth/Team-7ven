@@ -4,9 +4,9 @@ namespace SeguiNutri.App.Dominio
 
     public class HistoricoBasico
     {
-        public string Id {get; set;}
+        public int Id {get; set;}
 
-        public string IdPaciente { get; set; }
+        public int IdPaciente { get; set; }
         
         
         

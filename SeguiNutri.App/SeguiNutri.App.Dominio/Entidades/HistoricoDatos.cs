@@ -4,10 +4,10 @@ namespace SeguiNutri.App.Dominio
     
     public class HistoricoDatos
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
-        public string IdRegistro { get; set; }
-        public string IdPaciente { get; set; }
+        public int IdRegistro { get; set; }
+        public int IdPaciente { get; set; }
         
         /// Relacion entre HistoricoDatos e SeguimientoNutri
         public SeguimientoNutris SeguimientoNutricionalPaciente { get; set; }

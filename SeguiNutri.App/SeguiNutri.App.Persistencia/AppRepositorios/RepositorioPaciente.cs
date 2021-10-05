@@ -59,7 +59,7 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
                 pacienteEncontrado.FechaNacimiento=paciente.FechaNacimiento;
                 pacienteEncontrado.Correo=paciente.Correo;
                 pacienteEncontrado.Telefono=paciente.Telefono;
-              
+                
                 pacienteEncontrado.CoachAsignadoPaciente=paciente.CoachAsignadoPaciente;
                 pacienteEncontrado.NutricionistaAsignadoPaciente=paciente.NutricionistaAsignadoPaciente;
                 pacienteEncontrado.RegistroDatosPaciente=paciente.RegistroDatosPaciente;

@@ -6,7 +6,7 @@ namespace SeguiNutri.App.Dominio
 {
     public class Nutricionista : Persona
     {
-        public string IdNutricionista { get; set; }
+        public int IdNutricionista { get; set; }
 
     }
 

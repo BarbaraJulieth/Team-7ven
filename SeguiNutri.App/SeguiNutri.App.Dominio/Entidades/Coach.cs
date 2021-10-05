@@ -5,7 +5,7 @@ namespace SeguiNutri.App.Dominio
 {
     public class Coach : Persona
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
     }
 
