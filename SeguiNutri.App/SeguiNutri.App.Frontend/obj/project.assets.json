@@ -5738,19 +5738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Brayan Triviño\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+      "projectUniqueName": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
       "projectName": "SeguiNutri.App.Frontend",
-      "projectPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
+      "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Brayan Triviño\\.nuget\\packages\\",
+      "outputPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Brayan Triviño\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5761,11 +5761,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
-              "projectPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj"
+            "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
+              "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj"
             },
-            "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj": {
-              "projectPath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj"
+            "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj": {
+              "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj"
             }
           }
         }
@@ -5796,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
       }
     }
   }
