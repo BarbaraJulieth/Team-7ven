@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+  <ItemGroup>
+    <ProjectReference Include="..\SeguiNutri.App.Persistencia\SeguiNutri.App.Persistencia.csproj" />
+    <ProjectReference Include="..\SeguiNutri.App.Dominio\SeguiNutri.App.Dominio.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>

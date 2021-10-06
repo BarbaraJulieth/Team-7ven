@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Dari\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Dari\\.nuget\\packages",
-      "G:\\Visual componentes\\NuGetPackages"
+      "C:\\Users\\Lenovo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lenovo\\.nuget\\packages"
     ]
   }
 }

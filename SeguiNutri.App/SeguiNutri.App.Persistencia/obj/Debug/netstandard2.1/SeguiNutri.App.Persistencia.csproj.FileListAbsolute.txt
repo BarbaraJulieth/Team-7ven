@@ -21,3 +21,15 @@ C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netst
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CopyComplete
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.deps.json
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Dominio.dll
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Dominio.pdb
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csprojAssemblyReference.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfoInputs.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfo.cs
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CopyComplete
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
+C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb

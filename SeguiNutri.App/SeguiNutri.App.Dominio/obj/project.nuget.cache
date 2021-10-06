@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ksmQzqBDtqDpIZekhXfd4N9lJCDJpgcbVhOoTr6mybRgy4+xNa/2lSzJfnmWJCooo7M1ZLLqc72XbYXvPCfNjA==",
+  "dgSpecHash": "oRu9l9h3nUhSYCbFgPb1o09YgNmC6hxrTQwWh3eT42Q7KGlbly5n/058Qz8VLkyowLQ9MvHWfreEYsb5g+uAfQ==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
+  "projectFilePath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\julie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\julie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
