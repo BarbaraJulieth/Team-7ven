@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Proyecto\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
         "projectName": "SeguiNutri.App.Dominio",
         "projectPath": "C:\\Proyecto\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
         "outputPath": "C:\\Proyecto\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
