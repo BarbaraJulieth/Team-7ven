@@ -1,4 +1,6 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 
 /// <summary> Paciente </summary>
 
@@ -6,7 +8,9 @@ namespace SeguiNutri.App.Dominio
 {
     public class Paciente : Persona
     {
+        
         public int IdPaciente { get; set; }
+        [Required, StringLength(50)]
         public string Contraseña { get; set;}  
               
         /// Relacion Entre Paciente y Coach
