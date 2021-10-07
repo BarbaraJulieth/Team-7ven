@@ -4,16 +4,36 @@
 }
 <h1>Lista de Pacientes</h1>
 
+<a class="btn btn-primary" asp-page="./Registrar">Registrar Paciente</a>
+
+
 <table>
     <thead>
     <tr>
         <th scope="col" >Cedula</th>
         <th scope="col" >Nombre</th>
         <th scope="col" >Apellido</th>
-        <th scope="col" >Fecha De Nacimiento</th>
+        <th scope="col" >FechaNacimiento</th>
         <th scope="col" >Correo</th>
         <th scope="col" >Telefono</th>
+        <th scope="col" >IdPaciente</th>
         <th scope="col" >Contraseña</th>
     </tr>
     </thead>
+@foreach (var p in Model.Paciente)
+{
+   <tr>
+       <td>@p.Cedula</td>
+       <td>@p.Nombre</td>
+       <td>@p.Apellido</td>
+       <td>@p.FechaNacimiento</td>
+       <td>@p.Correo</td>
+       <td>@p.Telefono</td>
+       <td>@p.IdPaciente</td>
+       <td>@p.Contraseña</td>
+
+
+   </tr> 
+}
+
 </table>
