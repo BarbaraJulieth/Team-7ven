@@ -18,8 +18,7 @@ namespace SeguiNutri.App.Persistencia
         {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = SeguiNutriData");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = SeguiNutriData");
             }
         }
     }

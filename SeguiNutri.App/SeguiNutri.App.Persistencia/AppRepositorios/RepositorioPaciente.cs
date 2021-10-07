@@ -6,7 +6,6 @@ using System;
 
 namespace SeguiNutri.App.Persistencia
 {
-
     public class RepositorioPaciente : IRepositorioPaciente
     {
         private readonly AppContext _appContext = new AppContext();

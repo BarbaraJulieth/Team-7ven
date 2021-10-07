@@ -27,6 +27,10 @@ namespace SeguiNutri.App.Frontend.Pages.Pacientes
  
         public IActionResult OnPost(Paciente paciente)
         {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
             _repoPaciente.AddPaciente(paciente);
             return RedirectToPage("Intro");
         }
