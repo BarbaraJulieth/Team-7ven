@@ -1,0 +1,65 @@
+﻿@page
+@model SeguiNutri.App.Frontend.Pages.Pacientes.ActualizarModel
+@{
+}
+<h1>Actualización de Datos</h1>
+
+<form method="post">
+
+    <div>
+        <label asp-for="Paciente.Id"></label>
+        <input asp-for="Paciente.Id" class="form-control" readonly>
+        
+    </div>
+
+    <div>
+        <label asp-for="Paciente.Cedula"></label>
+        <input asp-for="Paciente.Cedula" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Cedula" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.Nombre"></label>
+        <input asp-for="Paciente.Nombre" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Nombre" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.Apellido"></label>
+        <input asp-for="Paciente.Apellido" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Apellido" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.FechaNacimiento"></label>
+        <input asp-for="Paciente.FechaNacimiento" class="form-control" required="required">
+        <span asp-validation-for="Paciente.FechaNacimiento" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.Correo"></label>
+        <input asp-for="Paciente.Correo" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Correo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.Telefono"></label>
+        <input asp-for="Paciente.Telefono" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Telefono" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Paciente.IdPaciente"></label>
+        <input asp-for="Paciente.IdPaciente" class="form-control" required="required">
+        <span asp-validation-for="Paciente.IdPaciente" class="text-danger"></span>
+    </div>
+
+
+    <div>
+        <label asp-for="Paciente.Contraseña"></label>
+        <input asp-for="Paciente.Contraseña" class="form-control" required="required">
+        <span asp-validation-for="Paciente.Contraseña" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>

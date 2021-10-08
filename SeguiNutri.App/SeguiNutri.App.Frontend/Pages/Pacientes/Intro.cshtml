@@ -18,6 +18,7 @@
         <th scope="col" >Telefono</th>
         <th scope="col" >IdPaciente</th>
         <th scope="col" >Contraseña</th>
+        <th scope="col" >Actualizacion de datos</th>
     </tr>
     </thead>
 @foreach (var p in Model.Paciente)
@@ -31,6 +32,7 @@
        <td>@p.Telefono</td>
        <td>@p.IdPaciente</td>
        <td>@p.Contraseña</td>
+       <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@p.Id">Editar</a></td>
 
 
    </tr> 
