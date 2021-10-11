@@ -11,6 +11,7 @@ namespace SeguiNutri.App.Frontend.Pages
     {
         public void OnGet()
         {
+            
         }
     }
 }
