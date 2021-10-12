@@ -14,19 +14,34 @@ namespace SeguiNutri.App.Frontend.Pages.RegistroNutricional
     {
         private readonly IRepositorioRegistroDatos _repoRegistroDatos;
         public RegistroDatos registroDatos {get; set;}
-        public RegistroNutricionalModel (IRepositorioRegistroDatos _repoRegistroDatos)
+        private readonly IRepositorioPaciente _repoPaciente;
+ 
+        public Paciente paciente {get;set;}
+
+        public RegistroNutricionalModel (IRepositorioRegistroDatos _repoRegistroDatos,IRepositorioPaciente _repoPaciente)
         {
             this._repoRegistroDatos=_repoRegistroDatos;
+            this._repoPaciente=_repoPaciente;
         }
-        public void OnGet()
+        public void OnGet(int id)
         {
+            paciente =_repoPaciente.GetPaciente(id);
             registroDatos = new RegistroDatos();
+           
         }
 
-         public IActionResult OnPost(RegistroDatos RegistroDatos)
+         public IActionResult OnPost(int id ,RegistroDatos RegistroDatos)
         {
-            _repoRegistroDatos.AddRegistroDatos(RegistroDatos);
-            return RedirectToPage("Intro");
+            if(RegistroDatos.Id_Paciente == 0)
+            {
+                RegistroDatos.Id_Paciente = id;
+                _repoRegistroDatos.AddRegistroDatos(RegistroDatos);
+                return RedirectToPage("/Pacientes/Intro");
+            }else
+            {
+                return NotFound();
+            }
+            
         }
         
     }

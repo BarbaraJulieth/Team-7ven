@@ -15,5 +15,7 @@ namespace SeguiNutri.App.Dominio
         public double  GrasaConsumi { get; set; }
         public double  Peso { get; set; }
         public double  MedidasAntropometricas { get; set; }
+
+        
     }
 }
