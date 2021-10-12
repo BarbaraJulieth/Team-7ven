@@ -80,3 +80,28 @@
 .login-box a:hover{
     color: #fff;
 }
+.header{
+    height: 80px;    
+}
+
+.leftmenu {
+    float: left;
+    width: 48%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    
+}
+.rightmenu {
+    float: right;
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.form-group input{
+    display: block;
+    width: 80%;
+    clear: both
+}
+.Registro div{
+    margin-bottom: 3px
+}

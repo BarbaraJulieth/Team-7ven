@@ -7,13 +7,14 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
 {
     public class RepositorioRegistroDatos : IRepositorioRegistroDatos
     {
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
+        /*
         public RepositorioRegistroDatos(AppContext _appContext)
         {
             this._appContext=_appContext;
         }
-
+        */
         RegistroDatos IRepositorioRegistroDatos.AddRegistroDatos(RegistroDatos registroDatos)
         {
             var RegistroDatosAgregado = _appContext.RegistrosDatos.Add(registroDatos);

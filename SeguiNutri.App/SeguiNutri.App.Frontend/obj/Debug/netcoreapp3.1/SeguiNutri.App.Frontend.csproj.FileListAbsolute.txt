@@ -249,3 +249,6 @@ G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.genruntimeconfig.cache
 G:\Trabajos\Team7ven\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Modales\ModalRegistro.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Modales\ModalRegistro.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\Pacientes\Actualizar.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.FrontEnd\obj\Debug\netcoreapp3.1\Razor\Pages\RegistroNutricional\RegistroNutricional.cshtml.g.cs

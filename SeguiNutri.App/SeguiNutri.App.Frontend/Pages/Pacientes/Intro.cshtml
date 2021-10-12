@@ -22,7 +22,7 @@
                             <th scope="col" >Telefono</th>
                             <th scope="col" >IdPaciente</th>
                             <th scope="col" >Contraseña</th>
-                            <th scope="col" >Actualizacion de datos</th>
+                            <th scope="col" >Registro Nutricional</th>
                             <th scope="col" >Prueba botones</th>
                         </tr>
                     </thead>
@@ -38,7 +38,7 @@
                             <td>@p.Telefono</td>
                             <td>@p.IdPaciente</td>
                             <td>@p.Contraseña</td>
-                            <td><a class="btn btn-secondary" asp-page="./Actualizar" asp-route-id="@p.Id">Editar</a></td>
+                            <td><a class="btn btn-primary" asp-page="../RegistroNutricional/RegistroNutricional" asp-route-id="@p.Id">Registro Nutricional</a></td>
                             <td>
                                 <div class="text-center">
                                     <div class="btn-group">
