@@ -174,3 +174,7 @@ C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\D
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\EliminarNutricionista.cshtml.g.cs
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\Index.cshtml.g.cs
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\RegistrarNutricionista.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Coachs\Index.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Coachs\RegistrarCoach.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\SeguimientoNutricional\Index.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\SeguimientoNutricional\Registrar.cshtml.g.cs
