@@ -2,7 +2,10 @@
 @using SeguiNutri.App.Dominio;
 @model SeguiNutri.App.Frontend.Pages.RegistroNutricional.RegistroNutricionalModel
 @{
+    
+    int pacienteId = Model.paciente.Id;
 }
+<link href="site.css" rel="stylesheet" type="text/css">
 <meta name="viewport" content="width device-width,user-scalable=no, initial-scale=1.0, maximum-scale = 1.0,minium-scale=1.0 ">
 <h1>Registro De Datos <br> Nutriciónales</h1>
 
@@ -12,19 +15,24 @@
             <br>
             <label asp-for="registroDatos.Id_Paciente"></label>
             <input asp-for="paciente.Id" class="form-control" readonly>
+            
+            
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.CaloriasConsumi">Calorias<br> Consumidas</label>
             <input asp-for="registroDatos.CaloriasConsumi" class="form-control" id="RegistroNutricional" >
+            <span class="text-danger" asp-validation-for="registroDatos.CaloriasConsumi"></span>
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.ProteinaConsumi">Proteinas<br> Consumidas</label>
             <input asp-for="registroDatos.ProteinaConsumi" class="form-control" >
+            <span class="text-danger" asp-validation-for="registroDatos.ProteinaConsumi"></span>
         </div>
         <br>
         <div class="form-group">
             <label asp-for="registroDatos.Peso">Peso</label>
             <input asp-for="registroDatos.Peso" class="form-control" >
+            <span class="text-danger" asp-validation-for="registroDatos.Peso"></span>
         </div>
     </aside>
     <aside class="rightmenu">
@@ -35,15 +43,19 @@
         <div class="form-group">
             <label asp-for="registroDatos.CarbohidratosConsumi">Carbohidratos<br> Consumidos</label>
             <input asp-for="registroDatos.CarbohidratosConsumi" class="form-control" >
+            <span class="text-danger" asp-validation-for="registroDatos.CarbohidratosConsumi"></span>
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.GrasaConsumi">Grasas <br>Consumidas</label>
             <input asp-for="registroDatos.GrasaConsumi" class="form-control" >
+            <span class="text-danger" asp-validation-for="registroDatos.GrasaConsumi"></span>
         </div> 
         <div class="form-group">
             <label asp-for="registroDatos.MedidasAntropometricas">Medidas<br> Antropometricas</label>
             <input asp-for="registroDatos.MedidasAntropometricas" class="form-control" >
+            <span class="text-danger" asp-validation-for="registroDatos.MedidasAntropometricas"></span>
         </div>
      </aside>  
-        <button type="submit"  class="btn btn-primary table-btn">Registrar</button>   
+        <button type="submit"  class="btn btn-primary table-btn">Registrar</button> 
+        <a class="btn btn-primary table-btn" asp-page="./ListaRegistrosPaciente" asp-route-pacienteId="@pacienteId"><i aria-hidden="true">Consulta Registro</i></a>  
 </form>

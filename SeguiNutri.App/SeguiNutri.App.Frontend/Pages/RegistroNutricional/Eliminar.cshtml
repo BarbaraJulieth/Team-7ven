@@ -1,0 +1,18 @@
+﻿@page
+@using SeguiNutri.App.Dominio
+@model SeguiNutri.App.Frontend.Pages.RegistroNutricional.EliminarModel
+@{
+}
+<h1>Eliminación Registro datos </h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="registroDatos.Id"></label>
+        <input asp-for="registroDatos.Id" class="form-control" readonly>
+    </div>
+    <div>
+        <label asp-for="registroDatos.Id_Paciente"></label>
+        <input asp-for="registroDatos.Id_Paciente" class="form-control" readonly>
+    </div>
+    <button type="submit" class="btn btn-primary table-btn">Eliminar</button>
+</form>

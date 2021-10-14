@@ -7,10 +7,10 @@ namespace SeguiNutri.App.Persistencia
 {
     public interface IRepositorioRegistroDatos
     {
-        IEnumerable<RegistroDatos> GetAllRegistrosDatos();
+        IEnumerable<RegistroDatos> GetAllRegistrosDatos(int IdPaciente);
         RegistroDatos AddRegistroDatos(RegistroDatos registroDatos);
         RegistroDatos UpdateRegistroDatos(RegistroDatos registroDatos);
-        void DeleteRegistroDatos(int IdPaciente ,int Id);
-        RegistroDatos GetRegistroDatos(int IdPaciente ,int Id);
+        void DeleteRegistroDatos(int Id);
+        RegistroDatos GetRegistroDatos(int Id);
     }
 }

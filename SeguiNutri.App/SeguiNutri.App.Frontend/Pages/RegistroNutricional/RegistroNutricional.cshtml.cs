@@ -32,17 +32,22 @@ namespace SeguiNutri.App.Frontend.Pages.RegistroNutricional
 
          public IActionResult OnPost(int id ,RegistroDatos RegistroDatos)
         {
-            if(RegistroDatos.Id_Paciente == 0)
+            if(!ModelState.IsValid)
             {
-                RegistroDatos.Id_Paciente = id;
-                _repoRegistroDatos.AddRegistroDatos(RegistroDatos);
-                return RedirectToPage("/Pacientes/Intro");
-            }else
-            {
-                return NotFound();
+                return Page();
             }
-            
+            else
+            {   
+                if(RegistroDatos.Id_Paciente == 0)
+                {
+                    RegistroDatos.Id_Paciente = id;
+                    _repoRegistroDatos.AddRegistroDatos(RegistroDatos);
+                    return RedirectToPage("/Pacientes/Intro");
+                }else
+                {
+                    return NotFound();
+                }
+            }
         }
-        
     }
 }
