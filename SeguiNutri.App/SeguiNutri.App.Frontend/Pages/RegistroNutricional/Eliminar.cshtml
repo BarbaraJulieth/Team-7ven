@@ -4,7 +4,8 @@
 @{
 }
 <h1>Eliminación Registro datos </h1>
-
+<h1>Confirmar</h1>
+<p>¿Desea eliminar este registro nutricional? </p>
 <form method="post">
     <div class="form-group">
         <label asp-for="registroDatos.Id"></label>
@@ -14,5 +15,8 @@
         <label asp-for="registroDatos.Id_Paciente"></label>
         <input asp-for="registroDatos.Id_Paciente" class="form-control" readonly>
     </div>
-    <button type="submit" class="btn btn-primary table-btn">Eliminar</button>
+   
+    <button type="submit" class="btn btn-primary">Si</button>
+    <a asp-page="./RegistroNutricional" class="btn btn-primary">No</a>
+
 </form>

@@ -170,3 +170,7 @@ C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\D
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\RegistroNutricional\ListaRegistrosPaciente.cshtml.g.cs
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\RegistroNutricional\Editar.cshtml.g.cs
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\RegistroNutricional\Eliminar.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\ActualizarNutricionista.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\EliminarNutricionista.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\Index.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Nutricionistas\RegistrarNutricionista.cshtml.g.cs

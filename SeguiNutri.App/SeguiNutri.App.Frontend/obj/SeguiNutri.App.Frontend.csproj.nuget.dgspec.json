@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {}
+    "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.frontend\\SeguiNutri.App.Frontend.csproj": {}
   },
   "projects": {
     "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj": {
+    "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.frontend\\SeguiNutri.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+        "projectUniqueName": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.frontend\\SeguiNutri.App.Frontend.csproj",
         "projectName": "SeguiNutri.App.Frontend",
-        "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+        "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.frontend\\SeguiNutri.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Brayan Triviño\\.nuget\\packages\\",
-        "outputPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
+        "outputPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brayan Triviño\\AppData\\Roaming\\NuGet\\NuGet.Config"

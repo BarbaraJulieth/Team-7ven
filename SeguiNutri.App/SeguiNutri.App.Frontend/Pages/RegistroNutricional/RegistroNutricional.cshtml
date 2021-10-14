@@ -20,39 +20,39 @@
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.CaloriasConsumi">Calorias<br> Consumidas</label>
-            <input asp-for="registroDatos.CaloriasConsumi" class="form-control" id="RegistroNutricional" >
+            <input asp-for="registroDatos.CaloriasConsumi" class="form-control" id="RegistroNutricional" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.CaloriasConsumi"></span>
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.ProteinaConsumi">Proteinas<br> Consumidas</label>
-            <input asp-for="registroDatos.ProteinaConsumi" class="form-control" >
+            <input asp-for="registroDatos.ProteinaConsumi" class="form-control" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.ProteinaConsumi"></span>
         </div>
         <br>
         <div class="form-group">
             <label asp-for="registroDatos.Peso">Peso</label>
-            <input asp-for="registroDatos.Peso" class="form-control" >
+            <input asp-for="registroDatos.Peso" class="form-control" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.Peso"></span>
         </div>
     </aside>
     <aside class="rightmenu">
         <div class="form-group">
             <label asp-for="registroDatos.Fecha_Registro">Fecha  <br>Registro</label>
-            <input type="datetime-local" id="datemin" name="datemin" min="2021-01-01" asp-for="registroDatos.Fecha_Registro" class="form-control" >
+            <input type="datetime-local" id="datemin" name="datemin" min="2021-01-01" asp-for="registroDatos.Fecha_Registro" class="form-control" required="required">
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.CarbohidratosConsumi">Carbohidratos<br> Consumidos</label>
-            <input asp-for="registroDatos.CarbohidratosConsumi" class="form-control" >
+            <input asp-for="registroDatos.CarbohidratosConsumi" class="form-control" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.CarbohidratosConsumi"></span>
         </div>
         <div class="form-group">
             <label asp-for="registroDatos.GrasaConsumi">Grasas <br>Consumidas</label>
-            <input asp-for="registroDatos.GrasaConsumi" class="form-control" >
+            <input asp-for="registroDatos.GrasaConsumi" class="form-control" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.GrasaConsumi"></span>
         </div> 
         <div class="form-group">
             <label asp-for="registroDatos.MedidasAntropometricas">Medidas<br> Antropometricas</label>
-            <input asp-for="registroDatos.MedidasAntropometricas" class="form-control" >
+            <input asp-for="registroDatos.MedidasAntropometricas" class="form-control" required="required">
             <span class="text-danger" asp-validation-for="registroDatos.MedidasAntropometricas"></span>
         </div>
      </aside>  
