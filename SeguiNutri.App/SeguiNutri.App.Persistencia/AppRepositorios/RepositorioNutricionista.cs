@@ -3,11 +3,11 @@ using SeguiNutri.App.Dominio;
 using System.Linq;
 using System;
 
-namespace SeguiNutri.App.Persistencia.AppRepositorios
+namespace SeguiNutri.App.Persistencia
 {
     public class RepositorioNutrucionista : IRepositorioNutricionista
     {
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
         /* public RepositorioNutrucionista (AppContext _appContext)
         {
