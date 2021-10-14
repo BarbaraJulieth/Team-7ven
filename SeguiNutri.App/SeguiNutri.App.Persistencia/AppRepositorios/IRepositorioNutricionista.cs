@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using SeguiNutri.App.Dominio;
 using System.Linq;
 
-namespace SeguiNutri.App.Persistencia.AppRepositorios
+namespace SeguiNutri.App.Persistencia
 {
     public interface IRepositorioNutricionista
     {

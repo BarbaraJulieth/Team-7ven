@@ -9,10 +9,10 @@ namespace SeguiNutri.App.Persistencia.AppRepositorios
     {
         private readonly AppContext _appContext;
 
-        public RepositorioNutrucionista (AppContext _appContext)
+        /* public RepositorioNutrucionista (AppContext _appContext)
         {
             this._appContext=_appContext;
-        }   
+        }    */
 
         Nutricionista IRepositorioNutricionista.AddNutricionista(Nutricionista nutricionista)
         {
