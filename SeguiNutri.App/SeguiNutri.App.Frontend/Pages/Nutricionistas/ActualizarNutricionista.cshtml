@@ -1,0 +1,57 @@
+﻿@page
+@model SeguiNutri.App.Frontend.Pages.Nutricionistas.ActualizarNutricionistaModel
+@{
+}
+<h1>Actualización de Datos</h1>
+<form method="post">
+
+    <div>
+        <label asp-for="Nutricionista.Id"></label>
+        <input asp-for="Nutricionista.Id" class="form-control" readonly>   
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.Cedula"></label>
+        <input asp-for="Nutricionista.Cedula" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.Cedula" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.Nombre"></label>
+        <input asp-for="Nutricionista.Nombre" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.Nombre" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.Apellido"></label>
+        <input asp-for="Nutricionista.Apellido" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.Apellido" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.FechaNacimiento"></label>
+        <input asp-for="Nutricionista.FechaNacimiento" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.FechaNacimiento" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.Correo"></label>
+        <input asp-for="Nutricionista.Correo" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.Correo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.Telefono"></label>
+        <input asp-for="Nutricionista.Telefono" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.Telefono" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Nutricionista.IdNutricionista"></label>
+        <input asp-for="Nutricionista.IdNutricionista" class="form-control" required="required">
+        <span asp-validation-for="Nutricionista.IdNutricionista" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary table-btn">Editar</button>
+
+</form>
