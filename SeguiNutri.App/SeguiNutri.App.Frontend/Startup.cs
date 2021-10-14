@@ -29,6 +29,7 @@ namespace SeguiNutri.App.Frontend
             services.AddSingleton<IRepositorioPaciente, RepositorioPaciente>();
             services.AddSingleton<IRepositorioRegistroDatos, RepositorioRegistroDatos>();
             services.AddSingleton<IRepositorioNutricionista, RepositorioNutrucionista>();
+            services.AddSingleton<IRepositorioCoach, RepositorioCoach>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

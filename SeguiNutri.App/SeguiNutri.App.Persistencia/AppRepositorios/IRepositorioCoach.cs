@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using SeguiNutri.App.Dominio;
  
-namespace SeguiNutri.App.Persistencia.AppRepositorios
+namespace SeguiNutri.App.Persistencia
 {
     public interface IRepositorioCoach
     {

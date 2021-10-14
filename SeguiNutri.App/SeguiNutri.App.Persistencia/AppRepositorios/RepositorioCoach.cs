@@ -3,16 +3,16 @@ using System.Linq;
 using SeguiNutri.App.Dominio;
 using System;
  
-namespace SeguiNutri.App.Persistencia.AppRepositorios
+namespace SeguiNutri.App.Persistencia
  
 {
    public class RepositorioCoach : IRepositorioCoach
    {
-      private readonly AppContext _appContext;
-      public RepositorioCoach(AppContext  appContext)
+      private readonly AppContext _appContext = new AppContext();
+     /*  public RepositorioCoach(AppContext  appContext)
       {
          _appContext = appContext;
-      }
+      } */
  
       Coach IRepositorioCoach.AddCoach(Coach coach)
       {
