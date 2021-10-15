@@ -12,18 +12,21 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
     public class RegistrarModel : PageModel
     {
         private readonly IRepositorioPaciente _repoPaciente;
-        private readonly IRepositorioRegistroDatos _repoRegistroDatos;
+        private readonly IRepositorioSeguimientoNutricional _repoSeguimientoNutricional;
 
         public  IEnumerable<Paciente> Paciente{get; set;}
 
-        public RegistrarModel (IRepositorioPaciente _repoPaciente,IRepositorioRegistroDatos _repoRegistroDatos)
+        public SeguimientoNutris SeguimientoNutris{get;set;}
+
+        public RegistrarModel (IRepositorioPaciente _repoPaciente,IRepositorioSeguimientoNutricional _repoSeguimientoNutricional)
         {
             this._repoPaciente=_repoPaciente;
-            this._repoRegistroDatos=_repoRegistroDatos;
+            this._repoSeguimientoNutricional=_repoSeguimientoNutricional;
         }
 
         public void OnGet()
         {
+            SeguimientoNutris = new SeguimientoNutris();
             Paciente= _repoPaciente.GetAllPacientes();
         }    
 

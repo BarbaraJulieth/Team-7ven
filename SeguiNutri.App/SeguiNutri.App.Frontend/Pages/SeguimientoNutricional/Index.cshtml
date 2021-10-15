@@ -1,5 +1,27 @@
 ﻿@page
+@using SeguiNutri.App.Dominio
 @model SeguiNutri.App.Frontend.Pages.SeguimientoNutricional.IndexModel
 @{
 }
-<h1>Registro seguimiento nutricional</h1>h
+<h1>Registro seguimiento nutricional</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label>Id Nutricionista</label>
+        <input asp-for="SeguimientoNutris.IdNutricionista" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Id Coach</label>
+        <input asp-for="SeguimientoNutris.IdCoach" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Id Paciente</label>
+        <input asp-for="SeguimientoNutris.IdPaciente" class="form-control">
+    </div>
+    <div class="form-group">
+        <label>Sugerencias de Cuidados</label>
+        <input asp-for="SeguimientoNutris.SugerenciasCuid" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Registro</button>
+
+</form>
