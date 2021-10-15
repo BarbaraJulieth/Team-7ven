@@ -21,9 +21,9 @@ namespace SeguiNutri.App.Persistencia
          return coachAdicionado.Entity;
       }
  
-      void IRepositorioCoach.DeleteCoach(int idCoach)
+      void IRepositorioCoach.DeleteCoach(string cedulaCoach)
       {
-         var coachEncontrado =  _appContext.Coachs.FirstOrDefault(p => p.Id == idCoach);
+         var coachEncontrado =  _appContext.Coachs.FirstOrDefault(p => p.Cedula == cedulaCoach);
          if(coachEncontrado == null)
          return;
          _appContext.Coachs.Remove(coachEncontrado);
@@ -36,14 +36,15 @@ namespace SeguiNutri.App.Persistencia
          return _appContext.Coachs;
       }
  
-      Coach IRepositorioCoach.GetCoach(int idCoach)
+      Coach IRepositorioCoach.GetCoach(string CedulaCoach)
       {
-         return _appContext.Coachs.FirstOrDefault(p => p.Id == idCoach);
+         var coachEncontrado = _appContext.Coachs.FirstOrDefault(p => p.Cedula == CedulaCoach);
+         return coachEncontrado;
       }
  
       Coach IRepositorioCoach.UpdateCoach(Coach coach)
       {
-         var coachEncontrado = _appContext.Coachs.FirstOrDefault(p => p.Id == coach.Id);
+         var coachEncontrado = _appContext.Coachs.FirstOrDefault(p => p.Cedula == coach.Cedula);
          if (coachEncontrado!=null)
          {
             coachEncontrado.Cedula=coach.Cedula;

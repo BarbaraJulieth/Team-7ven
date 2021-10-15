@@ -39,7 +39,9 @@
                                 <div class="text-center">
                                     <div class="btn-group">
 
-                                         <a class="btn btn-primary btnEliminar" asp-page="./EliminarCoach" asp-route-Id="@c.Id">Eliminar</a>
+                                         <a class="btn btn-primary btnActualizar" asp-page="./ActualizarCoach" asp-route-Cedula="@c.Cedula">Actualizar</a>
+                                         <a class="btn btn-primary btnEliminar" asp-page="./EliminarCoach" asp-route-Cedula="@c.Cedula">Eliminar</a>
+                                         
                                     </div>
                                 </div>
                             </td>

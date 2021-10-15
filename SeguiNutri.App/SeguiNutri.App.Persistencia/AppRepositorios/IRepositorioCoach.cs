@@ -8,7 +8,7 @@ namespace SeguiNutri.App.Persistencia
         IEnumerable<Coach> GetAllCoachs();
         Coach AddCoach(Coach coach);
         Coach UpdateCoach(Coach coach);
-        void DeleteCoach(int idCoach);
-        Coach GetCoach(int idCoach);
+        void DeleteCoach(string cedulaCoach);
+        Coach GetCoach(string cedulaCoach);
      }
 }

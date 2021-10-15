@@ -1,0 +1,55 @@
+﻿@page
+@model SeguiNutri.App.Frontend.Pages.ActualizarCoachModel
+@{
+}
+
+<h1>Actualización de Datos</h1>
+
+<form method="post">
+
+    <div>
+        <label asp-for="Coach.Id"></label>
+        <input asp-for="Coach.Id" class="form-control" readonly>
+        
+    </div>
+
+    <div>
+        <label asp-for="Coach.Cedula"></label>
+        <input asp-for="Coach.Cedula" class="form-control" required="required">
+        <span asp-validation-for="Coach.Cedula" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Coach.Nombre"></label>
+        <input asp-for="Coach.Nombre" class="form-control" required="required">
+        <span asp-validation-for="Coach.Nombre" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Coach.Apellido"></label>
+        <input asp-for="Coach.Apellido" class="form-control" required="required">
+        <span asp-validation-for="Coach.Apellido" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Coach.FechaNacimiento"></label>
+        <input asp-for="Coach.FechaNacimiento" class="form-control" required="required">
+        <span asp-validation-for="Coach.FechaNacimiento" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Coach.Correo"></label>
+        <input asp-for="Coach.Correo" class="form-control" required="required">
+        <span asp-validation-for="Coach.Correo" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Coach.Telefono"></label>
+        <input asp-for="Coach.Telefono" class="form-control" required="required">
+        <span asp-validation-for="Coach.Telefono" class="text-danger"></span>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Actualizar</button>
+</form>
