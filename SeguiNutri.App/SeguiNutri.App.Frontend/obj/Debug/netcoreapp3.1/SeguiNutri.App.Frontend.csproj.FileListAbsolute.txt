@@ -275,3 +275,5 @@ D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\ne
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.dll
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.genruntimeconfig.cache
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Coachs\ActualizarCoach.cshtml.g.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Coachs\EliminarCoach.cshtml.g.cs
