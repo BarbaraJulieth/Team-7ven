@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6qGtE5brsmP6yUC9upQ4uM1odkbUeKd2Zz63MPYScC9APv8DGaiy2QgcKR88qKhDy0Q1cE5oJXjRYAUTaKE2AA==",
+  "dgSpecHash": "GoFtdRuXL0CCRE9zknrSJW45LigOMDeUBdNLde+p2zuUnl3zomx9nJ4IY4C007l6SXo+mPOZupfff5d3U6tZnQ==",
   "success": true,
-  "projectFilePath": "G:\\Trabajos\\Team7ven\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+  "projectFilePath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dari\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Dari\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

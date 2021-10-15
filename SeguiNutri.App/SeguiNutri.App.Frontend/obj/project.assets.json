@@ -5741,19 +5741,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Brayan Triviño\\.nuget\\packages\\": {}
+    "C:\\Users\\Dari\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+      "projectUniqueName": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
       "projectName": "SeguiNutri.App.Frontend",
-      "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\Brayan Triviño\\.nuget\\packages\\",
-      "outputPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
+      "projectPath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\SeguiNutri.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Dari\\.nuget\\packages\\",
+      "outputPath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Brayan Triviño\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dari\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5763,12 +5763,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
-              "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj"
+            "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj": {
+              "projectPath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj"
             },
-            "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj": {
-              "projectPath": "C:\\SeguimientoNutricional\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj"
+            "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj": {
+              "projectPath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Persistencia\\SeguiNutri.App.Persistencia.csproj"
             }
           }
         }
@@ -5781,6 +5782,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -5799,7 +5801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
