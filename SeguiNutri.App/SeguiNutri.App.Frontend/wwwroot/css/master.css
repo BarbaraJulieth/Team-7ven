@@ -107,11 +107,32 @@
 }
 
 footer {
-    background-color: black;
     position: fixed;
     left:0;
     bottom: 0;
     width: 100%;
     height: 40px;
     color: white;
-  }
+}
+
+.top div{
+    padding: 30px;
+    width: 100%;    
+    height: 50px;
+    align-content: top;    
+}
+.top input{    
+    display: block;
+    clear: both;
+    width: 45%
+}
+.sug{
+    padding: 25px
+}
+
+.sug input{
+    height: 300px;
+    width:  500px; 
+}
+
+

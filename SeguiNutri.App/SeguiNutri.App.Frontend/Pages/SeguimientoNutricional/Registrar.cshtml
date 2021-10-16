@@ -2,9 +2,10 @@
 @using SeguiNutri.App.Dominio
 @model SeguiNutri.App.Frontend.Pages.SeguimientoNutricional.RegistrarModel
 @{
+    int id = Model.Nutricionista.Id;
 }
 
-<h1>Lista de Pacientes</h1>
+<h1>Lista de Pacientes Del Nutricionista @Model.Nutricionista.Nombre @Model.Nutricionista.Apellido</h1>
 
 <div class="container">
     <div class="row">
@@ -37,7 +38,7 @@
                             <td>@p.Telefono</td>
                             <td>@p.IdPaciente</td>
                             <td>@p.Contraseña</td>
-                            <td><a class="btn btn-primary" asp-page="./Index" asp-route-id="@p.Id">Registro Nutricional</a></td>
+                            <td><a class="btn btn-primary" asp-page="./Index" asp-route-id="@id" asp-route-idPaciente="@p.Id">Sugerencia Nutricional</a></td>
                             
                         </tr> 
                         }

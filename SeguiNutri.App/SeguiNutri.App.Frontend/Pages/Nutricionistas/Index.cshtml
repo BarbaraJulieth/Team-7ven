@@ -1,6 +1,7 @@
 ﻿@page
 @model SeguiNutri.App.Frontend.Pages.Nutricionistas.IndexModel
 @{
+   
 }
 <h1>Lista de Nutricionistas</h1>
 
@@ -20,7 +21,6 @@
                             <th scope="col" >Fecha Nacimiento</th>
                             <th scope="col" >Correo</th>
                             <th scope="col" >Telefono</th>
-                            <th scope="col" >IdNutricionista</th>
                             <th scope="col" >Opciones</th>
                             <th scope="col" >Seguimientos Nutricionales</th>
                         </tr>
@@ -35,19 +35,18 @@
                             <td>@n.FechaNacimiento</td>
                             <td>@n.Correo</td>
                             <td>@n.Telefono</td>
-                            <td>@n.IdNutricionista</td>                           
                             <td>
                                 <div class="text-center">
                                     <div class="btn-group">
                                          <a class="btn btn-primary btnEditar" asp-page="./ActualizarNutricionista" asp-route-id="@n.Id">Editar</a>
-                                         <a class="btn btn-primary btnEliminar" asp-page="./EliminarNutricionista" asp-route-id="@n.Id">Eliminar</a>
+                                         <a class="btn btn-danger btnEliminar" asp-page="./EliminarNutricionista" asp-route-id="@n.Id">Eliminar</a>
                                     </div>
                                 </div>
                             </td>
                             <td>
                                 <div class="text-center">
                                     <div class="btn-group">
-                                         <a class="btn btn-primary " asp-page="../SeguimientoNutricional/Registrar" asp-route-id="@n.Id">Seguimiento Nutricional</a>
+                                        <a class="btn btn-primary " asp-page="../SeguimientoNutricional/Registrar" asp-route-id="@n.Id">Seguimiento Nutricional</a>
                                     </div>
                                 </div>
                             </td>
