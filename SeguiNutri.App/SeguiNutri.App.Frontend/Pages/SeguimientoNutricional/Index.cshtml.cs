@@ -37,10 +37,19 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
             paciente = _repoPaciente.GetPaciente(idPaciente);
             Coach = new Coach();
         }
-        public IActionResult OnPost( SeguimientoNutris SeguimientoNutris)
+        public IActionResult OnPost( int id , int idPaciente,SeguimientoNutris SeguimientoNutris)
         {
-            _repoSeguimientoNutricional.AddSeguimientoNutris(SeguimientoNutris);
-            return RedirectToPage("/Pacientes/Intro");
+            if(SeguimientoNutris.IdNutricionista == 0 && SeguimientoNutris.IdPaciente == 0)
+            {
+                SeguimientoNutris.IdNutricionista = id;
+                SeguimientoNutris.IdPaciente=idPaciente;
+                //_repoSeguimientoNutricional.AddSeguimientoNutris(SeguimientoNutris);
+                return RedirectToPage("/Nutricionistas/Index");
+            }
+            else
+            {
+                return NotFound();
+            }            
         }
     }
 }

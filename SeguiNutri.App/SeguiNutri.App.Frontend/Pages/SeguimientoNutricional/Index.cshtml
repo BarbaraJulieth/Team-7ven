@@ -6,7 +6,7 @@
 <h1>Seguimiento nutricional del Paciente @Model.paciente.Nombre  @Model.paciente.Apellido</h1>
 
 <form method="post">
-    <div class="form-group top">
+    <aside class="leftmenu">
         <div class="form-group">
             <label>Id Nutricionista</label>
             <input asp-for="Nutricionista.Id" class="form-control" readonly>        
@@ -19,11 +19,13 @@
             <label>Id Paciente</label>
             <input asp-for="paciente.Id" class="form-control" readonly>
         </div>
-    </div>        
+    </aside> 
+    <aside class="rightmenu">
         <div class="form-group sug">
             <div><label>Sugerencias de Cuidados</label></div>
-            <input type="text" asp-for="SeguimientoNutris.SugerenciasCuid" class="form-control">
+            <input type="text" asp-for="SeguimientoNutris.SugerenciasCuid" class="form-control" required="required">
         </div>
+    </aside>    
     <button type="submit" class="btn btn-primary">Registro</button>
 
 </form>
