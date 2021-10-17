@@ -30,12 +30,27 @@ namespace SeguiNutri.App.Frontend.Pages
 
         public IActionResult OnPost(Paciente paciente)
         {
+            
             if(!ModelState.IsValid)
             {
                 return Page();
             }
             _repoPaciente.AddPaciente(paciente);
-            return RedirectToPage("Index");
+            return RedirectToPage("Pacientes/");
         }
+
+        public IActionResult OnGetLogin(string email, string password)
+        {
+            Paciente = _repoPaciente.GetLogin(email,password );
+            if(Paciente == null)
+            {
+                Console.WriteLine("No entro");
+                return RedirectToPage("./Index");
+                
+            }
+            else
+            return Page();
+        }
+
     }
 }
