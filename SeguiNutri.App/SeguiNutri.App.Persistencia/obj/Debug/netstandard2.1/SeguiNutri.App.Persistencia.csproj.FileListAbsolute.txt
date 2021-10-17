@@ -33,3 +33,15 @@ C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1
 C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CopyComplete
 C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
 C:\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.deps.json
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Dominio.dll
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Debug\netstandard2.1\SeguiNutri.App.Dominio.pdb
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.AssemblyReference.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfoInputs.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfo.cs
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.dll
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Debug\netstandard2.1\SeguiNutri.App.Persistencia.pdb

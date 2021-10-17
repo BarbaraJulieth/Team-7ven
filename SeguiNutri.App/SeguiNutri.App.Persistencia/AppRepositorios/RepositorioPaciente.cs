@@ -47,6 +47,21 @@ namespace SeguiNutri.App.Persistencia
             return pacienteEncontrado;
         }
 
+        Paciente IRepositorioPaciente.GetLogin(string email, string password)
+        {
+
+            var pacienteEncontrado2 = _appContext.Pacientes.FirstOrDefault(p => p.Correo == email);
+            int id = pacienteEncontrado2.Id;
+            var pacienteEncontrado = _appContext.Pacientes.FirstOrDefault(s => s.Contraseña == password);
+            int id2 = pacienteEncontrado.Id;
+            if(id == id2){
+                return pacienteEncontrado;
+            }else
+            return null;
+            
+            
+        }
+
         Paciente IRepositorioPaciente.UpdatePaciente(Paciente paciente)
         {
            var pacienteEncontrado=_appContext.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);

@@ -37,3 +37,13 @@ C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandar
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
 C:\Proyecto\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.deps.json
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.csproj.AssemblyReference.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfoInputs.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfo.cs
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.dll
+D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Debug\netstandard2.0\SeguiNutri.App.Dominio.pdb

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oRu9l9h3nUhSYCbFgPb1o09YgNmC6hxrTQwWh3eT42Q7KGlbly5n/058Qz8VLkyowLQ9MvHWfreEYsb5g+uAfQ==",
+  "dgSpecHash": "4E1qinea9GWBahxs50skVrN2zj1uM1h1QNxT71lGXPadH+imGxhpVbL72+7tGcYmaH+1iKnfZdFWg3TEx3srbQ==",
   "success": true,
-  "projectFilePath": "C:\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
+  "projectFilePath": "D:\\Trabajos\\mintic\\Team-7ven\\SeguiNutri.App\\SeguiNutri.App.Dominio\\SeguiNutri.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Dari\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dari\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dari\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

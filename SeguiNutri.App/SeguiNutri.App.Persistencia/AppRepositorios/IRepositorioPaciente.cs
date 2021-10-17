@@ -11,6 +11,7 @@ namespace SeguiNutri.App.Persistencia
         Paciente UpdatePaciente(Paciente paciente);
         void DeletePaciente(int idPaciente);
         Paciente GetPaciente(int idPaciente);
+        Paciente GetLogin(string email, string password);
 
         // metodo de asignacion de nutricionista
         Nutricionista AsignarNutricionista (int IdPaciente , int IdNutricionista);
