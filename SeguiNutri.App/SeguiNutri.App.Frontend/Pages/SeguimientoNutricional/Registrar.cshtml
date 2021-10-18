@@ -24,6 +24,7 @@
                             <th scope="col" >IdPaciente</th>
                             <th scope="col" >Contraseña</th>
                             <th scope="col" >Seguimiento Nutricional</th>
+                            <th scope="col" >Historia</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,7 +40,7 @@
                             <td>@p.IdPaciente</td>
                             <td>@p.Contraseña</td>
                             <td><a class="btn btn-primary" asp-page="./Index" asp-route-id="@id" asp-route-idPaciente="@p.Id">Sugerencia Nutricional</a></td>
-                            
+                             <td><a class="btn btn-primary " asp-page="../SeguimientoNutricional/Detalle" asp-route-id="@p.Id">Historia</a></td>
                         </tr> 
                         }
                     </tbody>

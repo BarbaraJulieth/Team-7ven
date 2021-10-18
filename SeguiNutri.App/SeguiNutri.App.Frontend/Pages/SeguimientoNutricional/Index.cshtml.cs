@@ -40,7 +40,7 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
         public IActionResult OnPost( SeguimientoNutris SeguimientoNutris)
         {
             _repoSeguimientoNutricional.AddSeguimientoNutris(SeguimientoNutris);
-            return RedirectToPage("/Pacientes/Intro");
+            return RedirectToPage("/Nutricionistas/Index");
         }
     }
 }
