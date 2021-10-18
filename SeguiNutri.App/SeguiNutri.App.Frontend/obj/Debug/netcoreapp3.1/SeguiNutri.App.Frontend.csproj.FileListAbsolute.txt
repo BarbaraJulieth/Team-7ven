@@ -97,4 +97,3 @@ D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\ne
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.dll
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.genruntimeconfig.cache
-D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Somos\Somos.cshtml.g.cs
