@@ -26,7 +26,7 @@ namespace SeguiNutri.App.Frontend.Pages
             this._repoSeguimientoNutricional =_repoSeguimientoNutricional;
      
         }
-        public void OnGet(int IdPaciente)
+        public void OnGet(int id)
         {
             /*  if(pacienteId.HasValue)
             {
@@ -38,7 +38,7 @@ namespace SeguiNutri.App.Frontend.Pages
             }
             else */
             {
-                SeguimientoNutris = _repoSeguimientoNutricional.GetAllSeguimientoNutris(IdPaciente);
+                SeguimientoNutris = _repoSeguimientoNutricional.GetAllSeguimientoNutris(id);
             }
             
         }

@@ -44,7 +44,7 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
             {
                 SeguimientoNutris.IdNutricionista = id;
                 SeguimientoNutris.IdPaciente=idPaciente;
-                //_repoSeguimientoNutricional.AddSeguimientoNutris(SeguimientoNutris);
+                _repoSeguimientoNutricional.AddSeguimientoNutris(SeguimientoNutris);
                 return RedirectToPage("/Nutricionistas/Index");
             }
             else
