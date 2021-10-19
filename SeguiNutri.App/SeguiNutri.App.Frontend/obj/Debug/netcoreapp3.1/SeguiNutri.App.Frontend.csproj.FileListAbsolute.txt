@@ -97,6 +97,7 @@ D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\ne
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.dll
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.genruntimeconfig.cache
+<<<<<<< HEAD
 D:\Trabajos\mintic\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Somos\Somos.cshtml.g.cs
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
@@ -195,3 +196,5 @@ C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\D
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\SeguiNutri.App.Frontend.StaticWebAssets.xml
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.dll
 C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Frontend\obj\Debug\netcoreapp3.1\SeguiNutri.App.Frontend.pdb
+=======
+>>>>>>> 2939d24882751a0dce55d5a8add35f36941aa027

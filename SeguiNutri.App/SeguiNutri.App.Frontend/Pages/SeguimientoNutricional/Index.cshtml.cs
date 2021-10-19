@@ -39,6 +39,7 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
         }
         public IActionResult OnPost( int id , int idPaciente,SeguimientoNutris SeguimientoNutris)
         {
+
             if(SeguimientoNutris.IdNutricionista == 0 && SeguimientoNutris.IdPaciente == 0)
             {
                 SeguimientoNutris.IdNutricionista = id;
@@ -50,6 +51,7 @@ namespace SeguiNutri.App.Frontend.Pages.SeguimientoNutricional
             {
                 return NotFound();
             }            
+
         }
     }
 }
