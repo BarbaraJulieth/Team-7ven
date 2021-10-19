@@ -18,7 +18,7 @@ namespace SeguiNutri.App.Persistencia
         {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = SeguiNutriData");
+                optionsBuilder.UseSqlServer("Server=tcp:databasenutricionjt.database.windows.net,1433;Initial Catalog=NutricionJT;Persist Security Info=False;User ID=JeisonTrivi;Password=Jeison2021*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
     }

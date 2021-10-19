@@ -65,8 +65,6 @@
           </div>
 
           <button type="submit" class="btn btn-primary table-btn">Registrarse</button>
-
-
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -99,5 +97,20 @@
       <a href="#" data-toggle="modal" data-target="#exampleModal">Registrarse</a><br>
 
     </form>
+    
+      @if(User.Identity.IsAuthenticated)
+      {
+        <table class="table table-sm">
+          @foreach(var x in User.Claims)
+          {
+            <tr>
+              <td>@x.Type</td>
+              <td>@x.Value</td>
+            </tr>
+          }  
+        </table>
+      }
+
   </div>
+  
 </body>

@@ -1,0 +1,8 @@
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Release\netstandard2.0\SeguiNutri.App.Dominio.deps.json
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Release\netstandard2.0\SeguiNutri.App.Dominio.dll
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\bin\Release\netstandard2.0\SeguiNutri.App.Dominio.pdb
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Release\netstandard2.0\SeguiNutri.App.Dominio.csprojAssemblyReference.cache
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Release\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfoInputs.cache
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Release\netstandard2.0\SeguiNutri.App.Dominio.AssemblyInfo.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Release\netstandard2.0\SeguiNutri.App.Dominio.dll
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Dominio\obj\Release\netstandard2.0\SeguiNutri.App.Dominio.pdb

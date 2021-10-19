@@ -1,0 +1,11 @@
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Release\netstandard2.1\SeguiNutri.App.Persistencia.deps.json
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Release\netstandard2.1\SeguiNutri.App.Persistencia.dll
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Release\netstandard2.1\SeguiNutri.App.Persistencia.pdb
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Release\netstandard2.1\SeguiNutri.App.Dominio.dll
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\bin\Release\netstandard2.1\SeguiNutri.App.Dominio.pdb
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.csprojAssemblyReference.cache
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfoInputs.cache
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.AssemblyInfo.cs
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.csproj.CopyComplete
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.dll
+C:\SeguimientoNutricional\Team-7ven\SeguiNutri.App\SeguiNutri.App.Persistencia\obj\Release\netstandard2.1\SeguiNutri.App.Persistencia.pdb
